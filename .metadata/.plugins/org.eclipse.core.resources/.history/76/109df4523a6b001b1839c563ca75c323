@@ -1,0 +1,8 @@
+
+public class TestaCondiconal {
+
+	public static void main(String[] args) {
+		System.out.println("Testando conddicionais!");
+	}
+
+}

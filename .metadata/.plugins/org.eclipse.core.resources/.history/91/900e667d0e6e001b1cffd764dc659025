@@ -1,0 +1,7 @@
+
+public abstract class FuncionarioAutenticavel extends Funcionario {
+
+	private int senha;
+
+
+}

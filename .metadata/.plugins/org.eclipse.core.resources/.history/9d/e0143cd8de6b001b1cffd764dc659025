@@ -1,0 +1,13 @@
+
+
+public class TestaMetodo {
+
+	public static void main(String[] args) {
+		
+		Conta contaHenrique = new Conta();
+		System.out.println(contaHenrique.saldo);
+		contaHenrique.deposita(100);
+
+	}
+
+}

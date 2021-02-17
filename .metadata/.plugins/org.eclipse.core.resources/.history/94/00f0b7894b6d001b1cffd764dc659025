@@ -1,0 +1,34 @@
+
+public class TesteFuncionarios {
+
+	public static void main(String[] args) {
+		
+		Funcionario henrique = new Funcionario();
+		henrique.setNome("Henrique");
+		henrique.setCPF("4025375890");
+		henrique.setSalario(2600.00);
+		
+		Funcionario ev = new EditorVideo();
+		ev.setNome("Menino Editor");
+		ev.setSalario(1000.00);
+		
+		Funcionario ds = new Designer();
+		ds.setNome("Bastião Designer");
+		ds.setSalario(3000.00);
+		
+		System.out.println(henrique.getNome());
+		System.out.println(henrique.getBonificacao());
+		System.out.println();
+		
+		System.out.println(ev.getNome());
+		System.out.println(ev.getBonificacao());
+		System.out.println();
+		
+		System.out.println(ds.getNome());
+		System.out.println(ds.getBonificacao());
+		
+		
+
+	}
+
+}

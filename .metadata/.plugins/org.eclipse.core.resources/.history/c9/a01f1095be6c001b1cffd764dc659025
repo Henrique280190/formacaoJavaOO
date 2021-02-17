@@ -1,0 +1,17 @@
+
+public class SemCliente {
+	
+	public static void main(String[] args) {
+		
+		Conta contaDaMarcala = new Conta();
+		
+		contaDaMarcala.titular = new Cliente();
+		
+		contaDaMarcala.titular.nome = "Marcela";
+		
+		System.out.println(contaDaMarcala.titular.nome);
+		System.out.println(contaDaMarcala.pagaSaldo());
+		
+	}
+
+}

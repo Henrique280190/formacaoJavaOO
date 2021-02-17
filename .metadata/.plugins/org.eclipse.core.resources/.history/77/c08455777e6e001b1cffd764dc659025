@@ -1,0 +1,5 @@
+//Gerente herda caracteristicas do funcionario
+public class Gerente extends Funcionario implements Autenticavel {	
+	
+		
+}

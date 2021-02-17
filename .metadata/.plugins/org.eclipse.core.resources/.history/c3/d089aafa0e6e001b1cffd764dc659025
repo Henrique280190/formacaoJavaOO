@@ -1,0 +1,19 @@
+
+public abstract class FuncionarioAutenticavel extends Funcionario {
+
+	private int senha;
+	
+	public void set.Senha(int senha){
+		this senha = senha;
+	}
+	
+	public boolean autenticaSenha(int senha){
+		if(this.senha == senha){
+			System.out.println("Pode entrar no sistema!");
+		}else{
+			System.out.println("Senha incorreta! Tentar novamente!");
+		}
+	}
+
+
+}

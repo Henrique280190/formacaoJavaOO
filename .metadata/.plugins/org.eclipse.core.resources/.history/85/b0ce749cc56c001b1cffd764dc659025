@@ -1,0 +1,15 @@
+
+public class TestaGetESet {
+	
+	public static void main(String[] args) {
+		
+		Conta conta = new Conta();
+		
+		conta.setNovaAgencia(30);
+		conta.setNovoNumero(681456);
+		
+		System.out.println(conta.getNovaAgencia());
+		
+	}
+
+}

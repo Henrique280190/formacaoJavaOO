@@ -1,0 +1,17 @@
+package br.com.bytebank.banco.test;
+
+public class TestaString {
+
+	public static void main(String[] args) {
+	
+		String nome = "Henrique"; //object literal
+		
+		String novaString = nome.replace("H", "h");
+		
+		System.out.println(nome);
+		System.out.println(novaString);
+		
+
+	}
+
+}

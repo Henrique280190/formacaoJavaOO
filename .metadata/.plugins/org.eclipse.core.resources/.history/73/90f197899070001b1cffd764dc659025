@@ -1,0 +1,8 @@
+public class Teste {
+    public static void main(String[] args) {
+        GuardadorDeContas guardador = new GuardadorDeContas();
+
+        Conta cc = new ContaCorrente(22, 11);
+        guardador.adiciona(cc);
+    }
+}

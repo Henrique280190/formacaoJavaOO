@@ -1,0 +1,13 @@
+
+public class TestaBanco {
+
+	public static void main(String[] args) {
+		
+		Cliente henrique = new Cliente();
+		henrique.nome = "Henrique Burgos";
+		henrique.CPF = "40215375890";
+		henrique.profissão = "Desenvolvedor";
+
+	}
+
+}

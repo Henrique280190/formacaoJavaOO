@@ -1,0 +1,9 @@
+
+public class Designer extends Funcionario {
+	
+	public double getBonificacao(){
+		System.out.println("Designer tbm ganha PLR");
+		return 1000.00;
+	}
+
+}

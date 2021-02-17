@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+gradle.build.scans=false
+gradle.distribution=GRADLE_DISTRIBUTION(LOCAL_INSTALLATION(C\:\\Gradle\\gradle-4.9))
+gradle.offline.mode=false

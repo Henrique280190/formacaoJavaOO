@@ -1,0 +1,9 @@
+//Editor de video herda da classe funcionario
+public class EditorVideo extends Funcionario {
+	
+	public double getBonificacao() {
+		System.out.println("Chama metodo bonificação editor de video");
+		return 150;
+	}
+
+}

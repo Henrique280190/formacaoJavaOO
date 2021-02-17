@@ -1,0 +1,18 @@
+
+public class TesteFuncionario {
+
+	public static void main(String[] args) {
+		
+		Funcionario henrique = new Funcionario();
+		henrique.setNome("Henrique");
+		henrique.setCPF("4025375890");
+		henrique.setSalario(2600.00);
+		
+		System.out.println(henrique.getNome());
+		System.out.println(henrique.getBonificacao());
+		
+		
+
+	}
+
+}

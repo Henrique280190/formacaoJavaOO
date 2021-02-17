@@ -1,0 +1,11 @@
+
+public class TestaContas {
+
+	public static void main(String[] args) {
+		
+		ContaCorrente cc = new ContaCorrente(30, 68145);
+		cc.deposita(100.00);
+
+	}
+
+}

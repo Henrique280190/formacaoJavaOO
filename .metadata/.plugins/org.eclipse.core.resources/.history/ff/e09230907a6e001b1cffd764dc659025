@@ -1,0 +1,11 @@
+//Gerente herda caracteristicas do funcionario
+public class Gerente extends Autenticavel {	
+	
+	public double getBonificacao(){
+		//System.out.println("Gerente tem PLR valor igual a salario!");
+		return getSalario();
+	}
+
+	
+	
+}

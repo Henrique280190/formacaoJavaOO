@@ -1,0 +1,21 @@
+package br.com.bytebank.banco.teste;
+
+public class TestaContas {
+
+	public static void main(String[] args) {
+		//Full qualified name FQN
+		modelo.ContaCorrente cc = new modelo.ContaCorrente(30, 68145);
+		cc.deposita(100.0);
+		
+		
+		modelo.ContaPoupanca cp = new modelo.ContaPoupanca(35, 60560);
+		cp.deposita(200.0);
+		
+		cc.transfere(10.0, cp);
+		
+		System.out.println(cc.getSaldo());
+		System.out.println(cp.getSaldo());
+
+	}
+
+}

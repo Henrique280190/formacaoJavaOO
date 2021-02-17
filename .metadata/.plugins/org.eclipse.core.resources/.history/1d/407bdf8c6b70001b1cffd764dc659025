@@ -1,0 +1,14 @@
+package br.com.bytebank.banco.test;
+
+public class TestaString {
+
+	public static void main(String[] args) {
+	
+		String nome = "Lua"; //object literal
+		
+		System.out.println(nome);
+		
+
+	}
+
+}

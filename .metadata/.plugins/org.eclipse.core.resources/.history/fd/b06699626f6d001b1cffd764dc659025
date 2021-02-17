@@ -1,0 +1,15 @@
+
+public class TestaContas {
+
+	public static void main(String[] args) {
+		
+		ContaCorrente cc = new ContaCorrente(30, 68145);
+		cc.deposita(100.0);
+		
+		
+		ContaPoupanca cp = new ContaPoupanca(35, 60560);
+		cp.deposita(200.0);
+
+	}
+
+}

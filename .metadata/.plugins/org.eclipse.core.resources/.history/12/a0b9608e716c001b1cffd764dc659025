@@ -1,0 +1,11 @@
+
+public class TestaBanco {
+
+	public static void main(String[] args) {
+		
+		Cliente henrique = new Cliente();
+		System.out.println(henrique);
+
+	}
+
+}

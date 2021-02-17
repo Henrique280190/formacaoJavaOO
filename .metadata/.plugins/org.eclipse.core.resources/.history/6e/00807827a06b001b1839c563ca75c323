@@ -1,0 +1,15 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class ImpostoRenda {
+
+	public static void main(String[] args) {
+		
+		double salario;
+		double IR;
+		
+		Scanner sc = new Scanner (System.in);
+
+	}
+
+}

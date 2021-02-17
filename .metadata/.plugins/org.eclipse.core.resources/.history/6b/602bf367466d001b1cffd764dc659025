@@ -1,0 +1,4 @@
+//Editor de video herda da classe funcionario
+public class EditorVideo extends Funcionario {
+
+}

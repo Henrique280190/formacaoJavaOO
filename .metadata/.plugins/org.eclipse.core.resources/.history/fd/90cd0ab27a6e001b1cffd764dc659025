@@ -1,0 +1,23 @@
+//Gerente herda caracteristicas do funcionario
+public class Gerente extends Funcionario implements Autenticavel {	
+	
+	public double getBonificacao(){
+		//System.out.println("Gerente tem PLR valor igual a salario!");
+		return getSalario();
+	}
+
+	@Override
+	public void setSenha(int senha) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean autentica(int senha) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	
+	
+}
