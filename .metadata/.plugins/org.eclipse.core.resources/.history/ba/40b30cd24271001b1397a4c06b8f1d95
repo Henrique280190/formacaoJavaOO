@@ -1,0 +1,12 @@
+import java.io.FileInputStream;
+
+public class TestaLeitura {
+
+	public static void main(String[] args) throws FileNotFoundException {
+
+
+		FileInputStream fis = new FileInputStream("lorem.text");
+
+	}
+
+}

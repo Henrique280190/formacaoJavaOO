@@ -1,0 +1,12 @@
+
+
+public class TesteSerializacao {
+
+        public static void main(String[] args) {
+
+            String nome = "Nico Steppat";
+
+            ObjectOutputStream oos = new ObjectOutputStream();
+
+        }
+}

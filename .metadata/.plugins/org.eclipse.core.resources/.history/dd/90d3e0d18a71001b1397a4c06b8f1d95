@@ -1,0 +1,13 @@
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+
+public class TesteSerializacao {
+
+        public static void main(String[] args) {
+
+            String nome = "Henrique Burgos";
+
+            ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("objeto.bin"));
+
+        }
+}
